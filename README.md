@@ -1,4 +1,4 @@
-# Chinese Government Text Correction with Knowledge Bases
+# NLPCC2025 Shared Task 5: Chinese Government Text Correction with Knowledge Bases
 
 ## Task Introduction
 
@@ -14,7 +14,7 @@ We provide a Chinese grammatical error correction benchmark named CGTC_KB, which
 - Validation Set (dev.input.txt, dev.kb.jsonl and ref.dev.txt): collected from real user inputs, containing original sentences, matched KB elements and the corrected sentences. The validation set can be used for model performance testing and hyper-parameter tuning, but it cannot be directly used for model training.
 - Test Set (test.input.txt and test.kb.jsonl): collected from real user inputs, containing original sentences and matched KB elements. The correction results are held out by the organizers for evaluation. Participants are required to submit the correction results of their systems.
 
-The data can be found at  [this link](https://pan.baidu.com/s/1V03Fa08hB-3vvzuhgYwHCQ?pwd=2002).
+The data can be found at  [this link](https://pan.baidu.com/s/1nCqKyWrDkmirwSMDimxLwQ?pwd=2002).
 
 **Rules:**
 
