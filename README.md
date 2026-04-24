@@ -11,10 +11,10 @@ We provide a Chinese grammatical error correction benchmark named CGTC_KB, which
 **Data Description:**
 
 - Training Set (train.txt and train.kb.jsonl): a synthetic data, collected by extracting sentences which can trigger KB matching from a large news crawl corpus, providing both the extracted sentences and corresponding matched KB elements.
-- Validation Set (dev.input.txt, dev.kb.jsonl and ref.dev.txt): collected from real user inputs, containing original sentences, matched KB elements and the corrected sentences. The validation set can be used for model performance testing and hyper-parameter tuning, but it cannot be directly used for model training.
-- Test Set (test.input.txt and test.kb.jsonl): collected from real user inputs, containing original sentences and matched KB elements. The correction results are held out by the organizers for evaluation. Participants are required to submit the correction results of their systems.
+- Validation Set (dev.txt, dev.kb.jsonl and ref.dev.txt): collected from real user inputs, containing original sentences, matched KB elements and the corrected sentences. The validation set can be used for model performance testing and hyper-parameter tuning, but it cannot be directly used for model training.
+- Test Set (test.txt and test.kb.jsonl): collected from real user inputs, containing original sentences and matched KB elements. The correction results are held out by the organizers for evaluation. Participants are required to submit the correction results of their systems.
 
-The data can be found at  [this link](https://pan.baidu.com/s/1nCqKyWrDkmirwSMDimxLwQ?pwd=2002).
+The data can be found at [Hugging Face](https://huggingface.co/datasets/hfxunlp/NLPCC2025_CGTCKB) or [ModelScope](https://www.modelscope.cn/datasets/hfxunlp/NLPCC2025_CGTCKB).
 
 **Rules:**
 
@@ -23,7 +23,7 @@ Additionally, for unsupervised data, any publicly available corpus on the web is
 
 ## Submission & Evaluation
 
-For submission, the following materials should be packaged as one `zip` file and sent to [songyang_1120@qq.com]:
+For submission, the following materials should be packaged as one `zip` file and sent to [songyang_1120@qq.com](mailto:songyang_1120@qq.com):
 
 - Submission File: The output sentences should be written into one text file. **The format of submission file must be the same as the input file. Specifically, the submission file must contain the same number of lines as the input file, and each line is a correct sentence corresponding to the sentence in the input file.** 
 - Document:
@@ -35,4 +35,4 @@ For submission, the following materials should be packaged as one `zip` file and
 
 ## Contact 
 
-If you have any questions about this task, please email to [songyang_1120@qq.com].
+If you have any questions about this task, please email to [songyang_1120@qq.com](mailto:songyang_1120@qq.com).
