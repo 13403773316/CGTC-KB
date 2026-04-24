@@ -36,3 +36,26 @@ For submission, the following materials should be packaged as one `zip` file and
 ## Contact 
 
 If you have any questions about this task, please email to [songyang_1120@qq.com](mailto:songyang_1120@qq.com).
+
+## Citation 
+
+```
+@InProceedings{song2025overview,
+author="Song, Yang
+and Jia, Yuxiang
+and Yan, Yuchen
+and Cui, Jiajia
+and Mu, Lingling
+and Xu, Hongfei",
+editor="Mao, Xian-Ling
+and Ren, Zhaochun
+and Yang, Muyun",
+title="Overview of NLPCC 2025 Shared Task 5: Chinese Government Text Correction with Knowledge Bases",
+booktitle="Natural Language Processing and Chinese Computing",
+year="2026",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="417--428",
+isbn="978-981-95-3352-7"
+}
+```
